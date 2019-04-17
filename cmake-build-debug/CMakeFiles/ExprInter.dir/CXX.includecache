@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Token.hpp
+string
+-
+
+/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Tokenizer.cpp
+iostream
+-
+string
+-
+Tokenizer.hpp
+/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Tokenizer.hpp
+
+/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Tokenizer.hpp
+fstream
+-
+vector
+-
+Token.hpp
+/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Token.hpp
+
