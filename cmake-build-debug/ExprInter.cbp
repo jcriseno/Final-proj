@@ -8,118 +8,118 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/cmake-build-debug"/>
+				<Option working_dir="/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/cmake-build-debug"/>
+				<Option working_dir="/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/cmake-build-debug"/>
+				<Option working_dir="/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ExprInter">
-				<Option output="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/cmake-build-debug/ExprInter" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/cmake-build-debug"/>
+				<Option output="/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/ExprInter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExprInter"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExprInter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ExprInter/fast">
-				<Option output="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/cmake-build-debug/ExprInter" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/cmake-build-debug"/>
+				<Option output="/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/ExprInter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExprInter/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/jcriseno&apos;s\ home/cs460/Project_1/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExprInter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/ArithExpr.cpp">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/ArithExpr.cpp">
 			<Option target="ExprInter"/>
 		</Unit>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/ArithExpr.hpp">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/ArithExpr.hpp">
 			<Option target="ExprInter"/>
 		</Unit>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/Parser.cpp">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/Parser.cpp">
 			<Option target="ExprInter"/>
 		</Unit>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/Parser.hpp">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/Parser.hpp">
 			<Option target="ExprInter"/>
 		</Unit>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/Statements.cpp">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/Statements.cpp">
 			<Option target="ExprInter"/>
 		</Unit>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/Statements.hpp">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/Statements.hpp">
 			<Option target="ExprInter"/>
 		</Unit>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/SymTab.cpp">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/SymTab.cpp">
 			<Option target="ExprInter"/>
 		</Unit>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/SymTab.hpp">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/SymTab.hpp">
 			<Option target="ExprInter"/>
 		</Unit>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/Token.cpp">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/Token.cpp">
 			<Option target="ExprInter"/>
 		</Unit>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/Token.hpp">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/Token.hpp">
 			<Option target="ExprInter"/>
 		</Unit>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/Tokenizer.cpp">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/Tokenizer.cpp">
 			<Option target="ExprInter"/>
 		</Unit>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/Tokenizer.hpp">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/Tokenizer.hpp">
 			<Option target="ExprInter"/>
 		</Unit>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/main.cpp">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/main.cpp">
 			<Option target="ExprInter"/>
 		</Unit>
-		<Unit filename="/Volumes/jcriseno&apos;s home/cs460/Project_1/ExprInter/CMakeLists.txt">
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

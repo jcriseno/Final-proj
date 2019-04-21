@@ -109,10 +109,6 @@ Token Tokenizer::getToken() {
     if( inStream.eof()) {
         token.eof() = true;
     }
-    else if( c == '\n' ) {
-        token.eol() = true;
-        token.symbol(c);
-    }
     else if( isdigit(c) ) { // a integer?
         // put the digit back into the input stream so
         // we read the entire number in a function
@@ -188,7 +184,7 @@ Token Tokenizer::getToken() {
     else if(c == ','){
         token.symbol(c);
     }
-    else if(c == '\''){
+    else if(c == '\n'){
         //token.symbol(c);
         token.eol() = true;
 

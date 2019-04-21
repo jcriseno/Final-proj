@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/jcriseno's home/cs460/Project_1/ExprInter
+# Install script for directory: /Users/josephcriseno/Desktop/ExprInter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

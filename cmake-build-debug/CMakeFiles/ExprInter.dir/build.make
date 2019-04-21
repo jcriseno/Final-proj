@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/jcriseno's home/cs460/Project_1/ExprInter"
+CMAKE_SOURCE_DIR = /Users/josephcriseno/Desktop/ExprInter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/josephcriseno/Desktop/ExprInter/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ExprInter.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/ExprInter.dir/flags.make
 
 CMakeFiles/ExprInter.dir/main.cpp.o: CMakeFiles/ExprInter.dir/flags.make
 CMakeFiles/ExprInter.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ExprInter.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/main.cpp.o -c "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ExprInter.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/main.cpp.o -c /Users/josephcriseno/Desktop/ExprInter/main.cpp
 
 CMakeFiles/ExprInter.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExprInter.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/main.cpp" > CMakeFiles/ExprInter.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josephcriseno/Desktop/ExprInter/main.cpp > CMakeFiles/ExprInter.dir/main.cpp.i
 
 CMakeFiles/ExprInter.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExprInter.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/main.cpp" -o CMakeFiles/ExprInter.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josephcriseno/Desktop/ExprInter/main.cpp -o CMakeFiles/ExprInter.dir/main.cpp.s
 
 CMakeFiles/ExprInter.dir/Token.cpp.o: CMakeFiles/ExprInter.dir/flags.make
 CMakeFiles/ExprInter.dir/Token.cpp.o: ../Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ExprInter.dir/Token.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/Token.cpp.o -c "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Token.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ExprInter.dir/Token.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/Token.cpp.o -c /Users/josephcriseno/Desktop/ExprInter/Token.cpp
 
 CMakeFiles/ExprInter.dir/Token.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExprInter.dir/Token.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Token.cpp" > CMakeFiles/ExprInter.dir/Token.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josephcriseno/Desktop/ExprInter/Token.cpp > CMakeFiles/ExprInter.dir/Token.cpp.i
 
 CMakeFiles/ExprInter.dir/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExprInter.dir/Token.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Token.cpp" -o CMakeFiles/ExprInter.dir/Token.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josephcriseno/Desktop/ExprInter/Token.cpp -o CMakeFiles/ExprInter.dir/Token.cpp.s
 
 CMakeFiles/ExprInter.dir/Tokenizer.cpp.o: CMakeFiles/ExprInter.dir/flags.make
 CMakeFiles/ExprInter.dir/Tokenizer.cpp.o: ../Tokenizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ExprInter.dir/Tokenizer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/Tokenizer.cpp.o -c "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Tokenizer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ExprInter.dir/Tokenizer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/Tokenizer.cpp.o -c /Users/josephcriseno/Desktop/ExprInter/Tokenizer.cpp
 
 CMakeFiles/ExprInter.dir/Tokenizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExprInter.dir/Tokenizer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Tokenizer.cpp" > CMakeFiles/ExprInter.dir/Tokenizer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josephcriseno/Desktop/ExprInter/Tokenizer.cpp > CMakeFiles/ExprInter.dir/Tokenizer.cpp.i
 
 CMakeFiles/ExprInter.dir/Tokenizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExprInter.dir/Tokenizer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Tokenizer.cpp" -o CMakeFiles/ExprInter.dir/Tokenizer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josephcriseno/Desktop/ExprInter/Tokenizer.cpp -o CMakeFiles/ExprInter.dir/Tokenizer.cpp.s
 
 CMakeFiles/ExprInter.dir/Parser.cpp.o: CMakeFiles/ExprInter.dir/flags.make
 CMakeFiles/ExprInter.dir/Parser.cpp.o: ../Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ExprInter.dir/Parser.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/Parser.cpp.o -c "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Parser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ExprInter.dir/Parser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/Parser.cpp.o -c /Users/josephcriseno/Desktop/ExprInter/Parser.cpp
 
 CMakeFiles/ExprInter.dir/Parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExprInter.dir/Parser.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Parser.cpp" > CMakeFiles/ExprInter.dir/Parser.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josephcriseno/Desktop/ExprInter/Parser.cpp > CMakeFiles/ExprInter.dir/Parser.cpp.i
 
 CMakeFiles/ExprInter.dir/Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExprInter.dir/Parser.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Parser.cpp" -o CMakeFiles/ExprInter.dir/Parser.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josephcriseno/Desktop/ExprInter/Parser.cpp -o CMakeFiles/ExprInter.dir/Parser.cpp.s
 
 CMakeFiles/ExprInter.dir/ArithExpr.cpp.o: CMakeFiles/ExprInter.dir/flags.make
 CMakeFiles/ExprInter.dir/ArithExpr.cpp.o: ../ArithExpr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ExprInter.dir/ArithExpr.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/ArithExpr.cpp.o -c "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/ArithExpr.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ExprInter.dir/ArithExpr.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/ArithExpr.cpp.o -c /Users/josephcriseno/Desktop/ExprInter/ArithExpr.cpp
 
 CMakeFiles/ExprInter.dir/ArithExpr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExprInter.dir/ArithExpr.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/ArithExpr.cpp" > CMakeFiles/ExprInter.dir/ArithExpr.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josephcriseno/Desktop/ExprInter/ArithExpr.cpp > CMakeFiles/ExprInter.dir/ArithExpr.cpp.i
 
 CMakeFiles/ExprInter.dir/ArithExpr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExprInter.dir/ArithExpr.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/ArithExpr.cpp" -o CMakeFiles/ExprInter.dir/ArithExpr.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josephcriseno/Desktop/ExprInter/ArithExpr.cpp -o CMakeFiles/ExprInter.dir/ArithExpr.cpp.s
 
 CMakeFiles/ExprInter.dir/SymTab.cpp.o: CMakeFiles/ExprInter.dir/flags.make
 CMakeFiles/ExprInter.dir/SymTab.cpp.o: ../SymTab.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ExprInter.dir/SymTab.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/SymTab.cpp.o -c "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/SymTab.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ExprInter.dir/SymTab.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/SymTab.cpp.o -c /Users/josephcriseno/Desktop/ExprInter/SymTab.cpp
 
 CMakeFiles/ExprInter.dir/SymTab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExprInter.dir/SymTab.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/SymTab.cpp" > CMakeFiles/ExprInter.dir/SymTab.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josephcriseno/Desktop/ExprInter/SymTab.cpp > CMakeFiles/ExprInter.dir/SymTab.cpp.i
 
 CMakeFiles/ExprInter.dir/SymTab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExprInter.dir/SymTab.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/SymTab.cpp" -o CMakeFiles/ExprInter.dir/SymTab.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josephcriseno/Desktop/ExprInter/SymTab.cpp -o CMakeFiles/ExprInter.dir/SymTab.cpp.s
 
 CMakeFiles/ExprInter.dir/Statements.cpp.o: CMakeFiles/ExprInter.dir/flags.make
 CMakeFiles/ExprInter.dir/Statements.cpp.o: ../Statements.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ExprInter.dir/Statements.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/Statements.cpp.o -c "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Statements.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ExprInter.dir/Statements.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExprInter.dir/Statements.cpp.o -c /Users/josephcriseno/Desktop/ExprInter/Statements.cpp
 
 CMakeFiles/ExprInter.dir/Statements.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExprInter.dir/Statements.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Statements.cpp" > CMakeFiles/ExprInter.dir/Statements.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josephcriseno/Desktop/ExprInter/Statements.cpp > CMakeFiles/ExprInter.dir/Statements.cpp.i
 
 CMakeFiles/ExprInter.dir/Statements.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExprInter.dir/Statements.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/Statements.cpp" -o CMakeFiles/ExprInter.dir/Statements.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josephcriseno/Desktop/ExprInter/Statements.cpp -o CMakeFiles/ExprInter.dir/Statements.cpp.s
 
 # Object files for target ExprInter
 ExprInter_OBJECTS = \
@@ -170,7 +170,7 @@ ExprInter: CMakeFiles/ExprInter.dir/SymTab.cpp.o
 ExprInter: CMakeFiles/ExprInter.dir/Statements.cpp.o
 ExprInter: CMakeFiles/ExprInter.dir/build.make
 ExprInter: CMakeFiles/ExprInter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ExprInter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ExprInter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ExprInter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +183,6 @@ CMakeFiles/ExprInter.dir/clean:
 .PHONY : CMakeFiles/ExprInter.dir/clean
 
 CMakeFiles/ExprInter.dir/depend:
-	cd "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/jcriseno's home/cs460/Project_1/ExprInter" "/Volumes/jcriseno's home/cs460/Project_1/ExprInter" "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug" "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug" "/Volumes/jcriseno's home/cs460/Project_1/ExprInter/cmake-build-debug/CMakeFiles/ExprInter.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/josephcriseno/Desktop/ExprInter/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/josephcriseno/Desktop/ExprInter /Users/josephcriseno/Desktop/ExprInter /Users/josephcriseno/Desktop/ExprInter/cmake-build-debug /Users/josephcriseno/Desktop/ExprInter/cmake-build-debug /Users/josephcriseno/Desktop/ExprInter/cmake-build-debug/CMakeFiles/ExprInter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExprInter.dir/depend
 
