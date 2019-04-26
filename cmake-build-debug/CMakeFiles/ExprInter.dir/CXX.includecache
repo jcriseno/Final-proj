@@ -6,23 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/josephcriseno/Desktop/ExprInter/Token.hpp
-string
--
-
-/Users/josephcriseno/Desktop/ExprInter/Tokenizer.cpp
+/Users/josephcriseno/Desktop/ExprInter/ArithExpr.cpp
 iostream
 -
+ArithExpr.hpp
+/Users/josephcriseno/Desktop/ExprInter/ArithExpr.hpp
+SymTab.hpp
+/Users/josephcriseno/Desktop/ExprInter/SymTab.hpp
+
+/Users/josephcriseno/Desktop/ExprInter/ArithExpr.hpp
+Token.hpp
+/Users/josephcriseno/Desktop/ExprInter/Token.hpp
+SymTab.hpp
+/Users/josephcriseno/Desktop/ExprInter/SymTab.hpp
+
+/Users/josephcriseno/Desktop/ExprInter/SymTab.hpp
 string
 -
-Tokenizer.hpp
-/Users/josephcriseno/Desktop/ExprInter/Tokenizer.hpp
-
-/Users/josephcriseno/Desktop/ExprInter/Tokenizer.hpp
-fstream
--
-vector
+map
 -
 Token.hpp
 /Users/josephcriseno/Desktop/ExprInter/Token.hpp
+
+/Users/josephcriseno/Desktop/ExprInter/Token.hpp
+string
+-
 

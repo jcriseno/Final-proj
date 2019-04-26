@@ -9,13 +9,15 @@
 
 #include<vector>
 #include<iostream>
+#include <stack>
 
 #include "Token.hpp"
 #include "Parser.hpp"
 #include "Statements.hpp"
 
-// Parser functions
 
+
+// Parser functions
 void Parser::die(std::string where, std::string message, Token &token) {
     std::cout << where << " " << message << std::endl;
     token.print();
@@ -139,26 +141,32 @@ PrintStatement *Parser::printStatement() {
         die("Parser::printStatement", "Expected a var token, instead got", varName);
     }
      */
-    std::cout << "ABOUT TO CALL TEST LIST" << std::endl;
+    //std::cout << "ABOUT TO CALL TEST LIST" << std::endl;
     //ExprNode *rightHandSideExpr = testlist();
     std::vector<ExprNode*> rightHandSideExpr = testlist();
-    std::cout << "FINISHED THE CALL TO  TEST LIST" << std::endl;
+    //std::cout << "FINISHED THE CALL TO  TEST LIST" << std::endl;
 
     //ExprNode *rightHandSideExpr = rel_expr();
 
     // Getting a token and making sure it a new line char
 
 
-    /*
+
     Token tok = tokenizer.getToken();
     if (tok.isSemiColon())
         Token tok = tokenizer.getToken();
-    if (!tok.isNewLine())
+    if (tok.isPoundSymbol()){
+        while(!tok.eol()) {
+            Token tok = tokenizer.getToken();
+        }
+    }
+    if (!tok.eol())
         die("Parser::printStatement", "Expected a New Line, instead got", tok);
-        */
+
+
 
    // return new PrintStatement(varName.getName());
-   std::cout << "Returning the finished print stmt!" << std::endl;
+   //std::cout << "Returning the finished print stmt!" << std::endl;
    return new PrintStatement(rightHandSideExpr);
 }
 
@@ -328,24 +336,24 @@ ExprNode *Parser::primary() {
 
     Token tok = tokenizer.getToken();
 
-    std::cout << "This is a number" << tok.isWholeNumber() << std::endl;
+    //std::cout << "This is a number" << tok.isWholeNumber() << std::endl;
 
 
     tok.print();
     std::cout << std::endl;
     if (tok.isWholeNumber() ) {
-        std::cout << "tok::WholeNumber Giving back token: ";
-        tok.print();
+        //std::cout << "tok::WholeNumber Giving back token: ";
+        //tok.print();
         return new WholeNumber(tok);
     }
     else if( tok.isStringS() ) {
-        std::cout << "tok::StringS Giving back token: ";
-        tok.print();
+        //std::cout << "tok::StringS Giving back token: ";
+        //tok.print();
         return new String(tok);
     }
     else if( tok.isName() ) {
-        std::cout << "tok::Name Giving back token: ";
-        tok.print();
+        //std::cout << "tok::Name Giving back token: ";
+        //tok.print();
         return new Variable(tok);
     }
     /*

@@ -4,7 +4,10 @@
 
 #include <iostream>
 #include <string>
+#include <stack>
 #include "Tokenizer.hpp"
+
+std::stack<int> indents;
 
 std::string Tokenizer::readName() {
     // This function is called when it is known that
@@ -72,13 +75,40 @@ Token Tokenizer::getToken() {
     std::string s;
     Token token;
     bool parsingNewLine = true;
+    int indentCounter = 0;
+
 
 
     while (inStream.get(c)) {
         inStream.putback(c);
 
         while (inStream.get(c) && isspace(c) && c != '\n')  // Skip spaces but not new-line chars.
-            ;
+        {
+            // if we know we are parsing a new line
+            if(parsingNewLine == true){
+                indentCounter++;
+            }
+        }
+        // If our indent stack is empty
+        if(indents.empty()){
+            indents.push(indentCounter);
+        }
+        // We found a bigger number of indents
+        else if(indentCounter > indents.top()){
+            indents.push(indentCounter);
+        }
+        // We found a smaller number of indents
+        else if(indentCounter < indents.top()){
+            indents.pop();
+            while(indentCounter < indents.top()){
+                indents.pop();
+            }
+        }
+        // We did not find a matching level of scope
+        if (indentCounter != indents.top() && !indents.empty()){
+            std::cout << "Tokenizer::getToken() Indentation error" << std::endl;
+            exit(1);
+        }
 
         // if the 'c' you just got is a comment sign
         if (c == '#') {
@@ -87,14 +117,21 @@ Token Tokenizer::getToken() {
                 ;
             //inStream.get(c);
         }
-        else
+        else {
             break;
+        }
     }
+
     /*
     while( inStream.get(c) && isspace(c) )  // Skip spaces including the new-line chars.
         ;
 
     */
+    /*
+    while (inStream.get(c) && isspace(c) && c != '\n')  // Skip spaces but not new-line chars.
+        ;
+
+     */
     if(inStream.bad()) {
         std::cout << "Error while reading the input stream in Tokenizer.\n";
         exit(1);
@@ -184,9 +221,20 @@ Token Tokenizer::getToken() {
     else if(c == ','){
         token.symbol(c);
     }
+    /*
+    else if(c == '#'){
+        while (inStream.get(c)){
+            if (c == '\n'){
+                inStream.putback(c);
+                break;
+            }
+        }
+    }
+     */
     else if(c == '\n'){
         //token.symbol(c);
         token.eol() = true;
+        parsingNewLine = true;
 
         while(inStream.get(c)){
             if (c != '\n'){

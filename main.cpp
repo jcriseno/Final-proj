@@ -1,10 +1,15 @@
 #include <iostream>
-#include<vector>
+#include <vector>
+#include <stack>
 
 
 #include "Token.hpp"
 #include "Tokenizer.hpp"
 #include "Parser.hpp"
+
+//Creating the stack to track indents
+//std::stack<int> indents;
+
 
 int main(int argc, char *argv[]) {
 
@@ -21,6 +26,7 @@ int main(int argc, char *argv[]) {
         perror("Error when attempting to open the input file.");
         exit(2);
     }
+
 
 
     Tokenizer tokenizer(inputStream);

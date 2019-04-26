@@ -10,11 +10,13 @@ Token::Token(): _stringS{""}, _name{""}, _eof{false}, _eol{false}, _symbol{'\0'}
 void Token::print() const {
     if( eol() ) std::cout << "EOL\n" ;
     else if( eof() )                    std::cout << "EOF" ;
+    else if( isPoundSymbol() ) std::cout << "#";
     else if( isOpenParen() )  std::cout << "(" ;
     else if( isCloseParen() )  std::cout << ")" ;
     else if( isOpenBracket() ) std::cout << "{" ;
     else if( isClosedBracket() ) std::cout << "}" ;
     else if( isNewLine() ) std::cout << '\n';
+    else if( isEmptySpace() ) std::cout << ' ';
     else if( isDoubleQuotationMark() ) std::cout << '"';
     else if( isSingleQuotationMark() ) std::cout << '\'';
     else if( isComma() ) std::cout << ", ";

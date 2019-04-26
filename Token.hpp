@@ -18,12 +18,15 @@ public:
     bool eof() const { return _eof; }
     bool eol() const  { return _eol; }
 
+    bool isPoundSymbol() const { return _symbol == '#'; }
+
     bool isOpenParen() const  { return _symbol == '('; }
     bool isCloseParen() const { return _symbol == ')'; }
 
     bool isOpenBracket() const { return _symbol == '{'; }
     bool isClosedBracket() const { return _symbol == '}'; }
     bool isNewLine() const { return _symbol == '\n'; }
+    bool isEmptySpace() const { return _symbol == ' '; }
     bool isDoubleQuotationMark() const { return _symbol == '"'; }
     bool isSingleQuotationMark() const { return _symbol == '\''; }
     bool isComma() const { return _symbol == ','; }
