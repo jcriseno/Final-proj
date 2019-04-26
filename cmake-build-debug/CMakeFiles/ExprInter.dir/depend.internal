@@ -10,10 +10,14 @@ CMakeFiles/ExprInter.dir/Parser.cpp.o
  /Users/josephcriseno/Desktop/ExprInter/ArithExpr.hpp
  /Users/josephcriseno/Desktop/ExprInter/Parser.cpp
  /Users/josephcriseno/Desktop/ExprInter/Parser.hpp
+ /Users/josephcriseno/Desktop/ExprInter/Range.h
  /Users/josephcriseno/Desktop/ExprInter/Statements.hpp
  /Users/josephcriseno/Desktop/ExprInter/SymTab.hpp
  /Users/josephcriseno/Desktop/ExprInter/Token.hpp
  /Users/josephcriseno/Desktop/ExprInter/Tokenizer.hpp
+CMakeFiles/ExprInter.dir/Range.cpp.o
+ /Users/josephcriseno/Desktop/ExprInter/Range.cpp
+ /Users/josephcriseno/Desktop/ExprInter/Range.h
 CMakeFiles/ExprInter.dir/Statements.cpp.o
  /Users/josephcriseno/Desktop/ExprInter/ArithExpr.hpp
  /Users/josephcriseno/Desktop/ExprInter/Statements.cpp

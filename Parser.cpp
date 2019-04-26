@@ -14,6 +14,7 @@
 #include "Token.hpp"
 #include "Parser.hpp"
 #include "Statements.hpp"
+#include "Range.h"
 
 
 
@@ -68,9 +69,105 @@ Statements *Parser::statements() {
 }
 
 ForStatement *Parser::forStatement() {
+    //for i in range(x):
+    //for i in range(x,y):
+    //for i in range(x,y,z):
+
+    // for
+    Token forToken =  tokenizer.getToken();
+    if(!forToken.isForLoop()){
+        die("Parser:ForStatement", "Expected a for token, instead got", forToken);
+    }
+
+    //i
+    Token varToken = tokenizer.getToken();
+    if(!varToken.isName()){
+        die("Parser:ForStatement", "Expected a var token, instead got", varToken);
+    }
+
+    // in
+    Token inToken = tokenizer.getToken();
+    if(!inToken.isInStmt()){
+        die("Parser:ForStatement", "Expected a in token, instead got", inToken);
+    }
+
+    // range
+    Token rangeToken = tokenizer.getToken();
+    if(!rangeToken.isRangeStmt()){
+        die("Parser:ForStatement", "Expected a range token, instead got", rangeToken);
+    }
+
+    // (
+    Token openParenToken = tokenizer.getToken();
+    if (!openParenToken.isOpenParen()){
+        die("Parser:ForStatement", "Expected an Open Parentheses, instead got", openParenToken);
+    }
+
+    // x
+    int x;
+    int y;
+    int z;
+    int forLoopArgs = 1;
+    Token xToken = tokenizer.getToken();
+    if(xToken.isWholeNumber()){
+        x = xToken.getWholeNumber();
+
+        Token commaToken1 = tokenizer.getToken();
+        if(commaToken1.isComma()){
+            // y
+            Token yToken = tokenizer.getToken();
+            y = yToken.getWholeNumber();
+            forLoopArgs++;
+
+
+            Token commaToken2 = tokenizer.getToken();
+            if(commaToken2.isComma()){
+                // z
+                Token zToken = tokenizer.getToken();
+                z = zToken.getWholeNumber();
+                forLoopArgs++;
+            }
+            else{
+                tokenizer.ungetToken();
+            }
+        }
+        else{
+            tokenizer.ungetToken();
+        }
+    }
+
+    if(forLoopArgs == 1){
+        Range range = Range(x);
+    }
+    else if(forLoopArgs == 2){
+        Range range = Range(x,y);
+
+    }
+    else if(forLoopArgs == 3){
+        Range range = Range(x,y,z);
+
+    }
+
+
+    // )
+    Token closedParenToken = tokenizer.getToken();
+    if (!closedParenToken.isCloseParen()){
+        die("Parser::ForStatement", "Expected an closed Parentheses, instead got", closedParenToken);
+    }
+
+    // :
+    Token colonToken = tokenizer.getToken();
+    if(!colonToken.isColon()){
+        die("Parser::ForStatement", "Expected a colon, instead got", colonToken);
+    }
+
+
+
     // for(i = 0; i < num; i = i + 1){ <statements> }
 
     // for
+    /*
+
     Token forToken =  tokenizer.getToken();
     if(!forToken.isForLoop()){
         die("Parser:ForStatement", "Expected a for token, instead got", forToken);
@@ -106,23 +203,26 @@ ForStatement *Parser::forStatement() {
     if(!secondEOL.isNewLine())
         die("Parser::ForStatement", "Expected a Second EOL 2, instead got", secondEOL);
     // {
-    /*
+
     Token openBracketToken = tokenizer.getToken();
     if(!openBracketToken.isOpenBracket()){
         die("Parser::ForStatement", "Expected an Open Bracket Token, instead got", openBracketToken);
     }
-     */
+
     // <statements>
     Statements *forstmts = statements();
     // }
-    /*
+
     Token closeBracketToken = tokenizer.getToken();
     if(!closeBracketToken.isClosedBracket()){
         die("Parser::ForStatement", "Expected an Closed Bracket Token, instead got", closeBracketToken);
     }
-     */
 
-    return new ForStatement(astmt1, rel_node, astmt3, forstmts);
+    */
+
+    //return new ForStatement(astmt1, rel_node, astmt3, forstmts);
+
+    return new ForStatement()
 
 
 }

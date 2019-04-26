@@ -15,6 +15,7 @@ void Token::print() const {
     else if( isCloseParen() )  std::cout << ")" ;
     else if( isOpenBracket() ) std::cout << "{" ;
     else if( isClosedBracket() ) std::cout << "}" ;
+    else if( isColon() ) std::cout << ":";
     else if( isNewLine() ) std::cout << '\n';
     else if( isEmptySpace() ) std::cout << ' ';
     else if( isDoubleQuotationMark() ) std::cout << '"';
@@ -35,6 +36,8 @@ void Token::print() const {
     else if( isNotEqualOperator() ) std::cout << " != ";
     else if( isForLoop() ) std::cout << "for";
     else if( isPrintStmt() ) std::cout << "print";
+    else if( isInStmt() ) std::cout << "in";
+    else if( isRangeStmt() ) std::cout << "range";
     else if( isName() )  std::cout << getName();
     else if( isStringS() ) std::cout << getStringS();
     else if( isWholeNumber() ) std::cout << getWholeNumber();

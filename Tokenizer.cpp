@@ -77,7 +77,7 @@ Token Tokenizer::getToken() {
     bool parsingNewLine = true;
     int indentCounter = 0;
 
-
+/*
 
     while (inStream.get(c)) {
         inStream.putback(c);
@@ -121,6 +121,7 @@ Token Tokenizer::getToken() {
             break;
         }
     }
+    */
 
     /*
     while( inStream.get(c) && isspace(c) )  // Skip spaces including the new-line chars.
@@ -242,6 +243,33 @@ Token Tokenizer::getToken() {
                 break;
             }
 
+        }
+    }
+    else if( c == ' '){
+        if (parsingNewLine){
+            indentCounter++;
+            inStream.get(c);
+            while(isspace(c)){
+                indentCounter++;
+                inStream.get(c);
+            }
+            inStream.putback(c);
+
+            // If our indent stack is empty
+            if(indents.empty()){
+                indents.push(indentCounter);
+            }
+                // We found a bigger number of indents
+            else if(indentCounter > indents.top()){
+                indents.push(indentCounter);
+            }
+                // We found a smaller number of indents
+            else if(indentCounter < indents.top()){
+                indents.pop();
+                while(indentCounter < indents.top()){
+                    indents.pop();
+                }
+            }
         }
     }
     else if(isalpha(c)) {  // an identifier?

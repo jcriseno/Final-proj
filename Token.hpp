@@ -25,6 +25,7 @@ public:
 
     bool isOpenBracket() const { return _symbol == '{'; }
     bool isClosedBracket() const { return _symbol == '}'; }
+    bool isColon() const { return _symbol == ':'; }
     bool isNewLine() const { return _symbol == '\n'; }
     bool isEmptySpace() const { return _symbol == ' '; }
     bool isDoubleQuotationMark() const { return _symbol == '"'; }
@@ -66,9 +67,13 @@ public:
     }
     bool isForLoop() const { return _name == "for"; }
     bool isPrintStmt() const { return _name == "print"; }
+    bool isInStmt() const { return _name == "in"; }
+    bool isRangeStmt() const { return _name == "range"; }
     bool isKeyword() const {
         return isForLoop() ||
-                isPrintStmt();
+                isPrintStmt() ||
+                isInStmt() ||
+                isRangeStmt();
     }
     bool isName() const                   { return _name.length() > 0; }
     std::string getName() const                  { return _name; }

@@ -92,6 +92,12 @@
 		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/Parser.hpp">
 			<Option target="ExprInter"/>
 		</Unit>
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/Range.cpp">
+			<Option target="ExprInter"/>
+		</Unit>
+		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/Range.h">
+			<Option target="ExprInter"/>
+		</Unit>
 		<Unit filename="/Users/josephcriseno/Desktop/ExprInter/Statements.cpp">
 			<Option target="ExprInter"/>
 		</Unit>

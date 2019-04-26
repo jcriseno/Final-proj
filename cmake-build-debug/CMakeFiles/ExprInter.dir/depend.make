@@ -9,10 +9,14 @@ CMakeFiles/ExprInter.dir/ArithExpr.cpp.o: ../Token.hpp
 CMakeFiles/ExprInter.dir/Parser.cpp.o: ../ArithExpr.hpp
 CMakeFiles/ExprInter.dir/Parser.cpp.o: ../Parser.cpp
 CMakeFiles/ExprInter.dir/Parser.cpp.o: ../Parser.hpp
+CMakeFiles/ExprInter.dir/Parser.cpp.o: ../Range.h
 CMakeFiles/ExprInter.dir/Parser.cpp.o: ../Statements.hpp
 CMakeFiles/ExprInter.dir/Parser.cpp.o: ../SymTab.hpp
 CMakeFiles/ExprInter.dir/Parser.cpp.o: ../Token.hpp
 CMakeFiles/ExprInter.dir/Parser.cpp.o: ../Tokenizer.hpp
+
+CMakeFiles/ExprInter.dir/Range.cpp.o: ../Range.cpp
+CMakeFiles/ExprInter.dir/Range.cpp.o: ../Range.h
 
 CMakeFiles/ExprInter.dir/Statements.cpp.o: ../ArithExpr.hpp
 CMakeFiles/ExprInter.dir/Statements.cpp.o: ../Statements.cpp
